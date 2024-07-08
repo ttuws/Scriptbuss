@@ -1,33 +1,8 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Brand/Turtle-Lib/main/source.lua"))()
 
-local window = library:Window("Tom vesion  v1.6")
+local window = library:Window("404")
 
 -- Name of button, callback
-window:Button("Spam Car Luxury", function()
+window:Button("Script Đang Update", function()
    print("pressed button")
-   local player = game.Players.LocalPlayer
-        local playerGui = player:WaitForChild("PlayerGui")
-        local luxuryGui = playerGui:WaitForChild("luxury")
-        local bgFrame = luxuryGui:WaitForChild("BG")
-        bgFrame.Visible = true
-end)
-
--- Name of button, callback
-window:Button("Emergency Car Spawner", function()
-   print("pressed button")
-   local player = game.Players.LocalPlayer
-        local playerGui = player:WaitForChild("PlayerGui")
-        local luxuryGui = playerGui:WaitForChild("emergency")
-        local bgFrame = luxuryGui:WaitForChild("BG")
-        bgFrame.Visible = true
-end)
-
--- Name of button, callback
-window:Button("Police Car Spawner", function()
-   print("pressed button")
-   local player = game.Players.LocalPlayer
-        local playerGui = player:WaitForChild("PlayerGui")
-        local luxuryGui = playerGui:WaitForChild("Police")
-        local bgFrame = luxuryGui:WaitForChild("BG")
-        bgFrame.Visible = true
 end)
